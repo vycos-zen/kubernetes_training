@@ -31,10 +31,27 @@ kubectl create -f nginx.pod.yaml --save-config
 
 ```
 
+to get running pods 
+
+```
+
+kubectl get pods
+
+```
+
+
 than later when changes rolled out use
 
 ```
 
 kubectl apply -f nginx.pod.yaml
+
+```
+
+to delete the pod
+
+```
+
+kubectl delete -f nginx.pod.yaml
 
 ```
