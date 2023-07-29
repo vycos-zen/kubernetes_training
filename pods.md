@@ -44,7 +44,7 @@ than run a dry run validation with
 
 ```
 
-kubectl -f nginx.pod.yaml --dry-run=client
+kubectl create -f nginx.pod.yaml --dry-run=client
 
 ```
 
