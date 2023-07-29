@@ -1,4 +1,8 @@
-to create a pod config use 
+# Pods
+
+## General
+
+### to create a pod config use 
 
 ```
 
@@ -40,7 +44,7 @@ spec:
 
 ```
 
-than run a dry run validation with 
+### than run a dry run validation with 
 
 ```
 
@@ -48,7 +52,7 @@ kubectl create -f nginx.pod.yaml --dry-run=client
 
 ```
 
-prefered way to start is to first create the cluster
+### prefered way to start is to first create the cluster
 
 ```
 
@@ -56,7 +60,7 @@ kubectl create -f nginx.pod.yaml --save-config
 
 ```
 
-to get running pods 
+### to get running pods 
 
 ```
 
@@ -64,7 +68,7 @@ kubectl get pods
 
 ```
 
-than later when changes rolled out use
+### than later when changes rolled out use
 
 ```
 
@@ -72,7 +76,7 @@ kubectl apply -f nginx.pod.yaml
 
 ```
 
-to delete the pod
+### to delete the pod
 
 ```
 
@@ -80,7 +84,7 @@ kubectl delete -f nginx.pod.yaml
 
 ```
 
-to get info about pod use either
+### to get info about pod use either
 
 ```
 
@@ -90,7 +94,7 @@ kubectl describe pod my-nginx
 
 ```
 
-to terminal into a pod
+### to terminal into a pod
 
 ```
 
