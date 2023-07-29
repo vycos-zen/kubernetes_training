@@ -3,12 +3,12 @@
 ## Hiearhy
 
   - Deployment
-   |
-    - Replica Set
-     |
-      - Pod
-       |
-        - Container
+    |
+     - Replica Set
+      |
+       - Pod
+        |
+         - Container
 
 to create a deployment
 
