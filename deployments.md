@@ -25,6 +25,7 @@ metadata:
     tier: frontend
 spec:
   replicas: 2
+  minReadySeconds: 10
   selector:
     matchLabels:
       tier: frontend
@@ -70,10 +71,17 @@ spec:
 
 ```
 
-kubectl create -f my-nginx.deployment.yaml
+kubectl create -f my-nginx.deployment.yaml --save-config
 
 ```
 
+### to update existing deployment with rolling updates and zero downtime
+
+```
+
+kubectl apply -f myngix.deployment.yaml
+
+```
 
 ### to list existing deployments
 
