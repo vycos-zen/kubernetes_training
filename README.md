@@ -9,3 +9,7 @@ Basic use cases for pod management.
 ## Deployment related commands
 
 [deployments.md](./deployments.md)
+
+## Services related commands
+
+[services.md](./services.md)
