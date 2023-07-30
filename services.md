@@ -2,6 +2,14 @@
  
 ## Commands 
 
+### create a service
+
+```
+
+kubectl create -f [file-name].service.yaml --save-config
+
+```
+
 ### port forwarding setup on pod
 
 to expose internal services to extrnal communication
