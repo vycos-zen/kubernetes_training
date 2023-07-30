@@ -13,3 +13,7 @@ Basic use cases for pod management.
 ## Services related commands
 
 [services.md](./services.md)
+
+## Dashboard setup
+
+[dashboard.md](./dashboard.md)
