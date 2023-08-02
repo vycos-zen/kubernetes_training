@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-settings
+  labels:
+    app: app-settings
+data:
+  objective: "bread"
+  attempts: "8"
+  bread.complete: "false"
+  bread.creation.progressState: gathering_resources

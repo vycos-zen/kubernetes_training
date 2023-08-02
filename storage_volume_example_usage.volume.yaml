@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: [Pod | StatefulSet | Deployment]
+
+...
+
+  spec:
+   volumes:
+     - name:  my volume
+       persistentVolumeClaim:
+        claimName: my-pvc

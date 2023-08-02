@@ -1,5 +1,8 @@
 {
   "yaml.schemas": {
-    "kubernetes://schema/v1@serviceaccount+rbac.authorization.k8s.io/v1@clusterrolebinding": "file:///Users/vycos-zen/git/kubernetes_training/core_concepts/dashboard.adminuser.yml"
+    "kubernetes://schema/v1@serviceaccount+rbac.authorization.k8s.io/v1@clusterrolebinding": [
+      "file:///Users/vycos-zen/git/kubernetes_training/core_concepts/dashboard.adminuser.yml",
+      "file:///Users/vycos-zen/git/kubernetes_training/core_concepts/config-excercise/config_demo.config.yaml"
+    ]
   }
 }

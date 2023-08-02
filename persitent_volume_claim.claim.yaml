@@ -1,0 +1,16 @@
+Version: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: MYAPP
+  namespace: default
+  annotations:
+    volume.beta.kubernetes.io/storeage-class: accounthdd
+  labels:
+    app: MYAPP
+spec:
+  storageClassName: rook-ceph-block
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
