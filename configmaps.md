@@ -55,3 +55,13 @@ bread.creation.progressState=gathering_resources
 kubectle create configmap [configmap_name] --from-env-file=[path-to-file]
 
 ```
+
+### Create from command line
+
+```
+
+kubectl create configmap [configmap-name]
+  --from-literal=apiUrl=http://example
+  --from-literal=exampleValue=exampleValue
+
+```
