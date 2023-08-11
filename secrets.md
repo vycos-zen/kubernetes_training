@@ -21,3 +21,27 @@ kubectl create secret generic [secret-name]
   --from-file=[key]=[path-to-file]
 
 ```
+
+### Create from a key pair
+
+```
+
+kubectl create secret tls [tls-secret] --cert+path=[path-to-file]
+
+```
+
+### Get secrets
+
+```
+
+kubectl get secrets
+
+```
+
+### get secret from YAML 
+
+```
+
+kubectl get secrets db-passwords -o yaml
+
+```
