@@ -14,6 +14,10 @@ Basic use cases for pod management.
 
 [services.md](./services/services.md)
 
+## Storage related commands
+
+[storage.md](./storage/storage.md)
+
 ## ConfigMap related commands
 
 [configmaps.md](./configmaps/configmaps.md)
@@ -24,3 +28,8 @@ Basic use cases for pod management.
 ## Dashboard setup
 
 [dashboard.md](./dashboard/dashboard.md)
+
+### Configuration on Ubuntu Server with minikube
+
+
+
